@@ -32,7 +32,8 @@ if (etaPasseggero < 18) {
         'Complimenti, hai diritto allo sconto del 20% grazie alla nostra tariffa \'Under 18\'. ' +
         'Il prezzo del biglietto è di ' + prezzoBiglietto + ' €'
     );
-    document.getElementById('biglietto').innerHTML = 'Complimenti, hai diritto allo sconto del 20% grazie alla nostra tariffa \'Under 18\'. ' +
+    document.getElementById('biglietto').innerHTML =
+    'Complimenti, hai diritto allo sconto del 20% grazie alla nostra tariffa \'Under 18\'. ' + '<br>' +
     'Il prezzo del biglietto è di ' + prezzoBiglietto + ' €';
 
 } else if (etaPasseggero >= 65) {
@@ -42,7 +43,8 @@ if (etaPasseggero < 18) {
         'Complimenti, hai diritto allo sconto del 40% grazie alla nostra tariffa \'Over 65\'. ' +
         'Il prezzo del biglietto è di ' + prezzoBiglietto + ' €'
     );
-    document.getElementById('biglietto').innerHTML = 'Complimenti, hai diritto allo sconto del 40% grazie alla nostra tariffa \'Over 65\'. ' +
+    document.getElementById('biglietto').innerHTML =
+    'Complimenti, hai diritto allo sconto del 40% grazie alla nostra tariffa \'Over 65\'. ' +
     'Il prezzo del biglietto è di ' + prezzoBiglietto + ' €';
 
 } else {

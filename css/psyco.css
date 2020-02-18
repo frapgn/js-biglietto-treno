@@ -1,11 +1,11 @@
-body {
+#biglietto {
     animation: psyco 1s linear infinite;
 }
 
 @keyframes psyco {
-    0% {background-color: black;}
-    50% {background-color: red;}
-    100% {background-color: black;}
+    0% {border: 2px dotted black;}
+    50% {border: 2px dotted red;}
+    100% {border: 2px dotted black;}
 }
 
 h1 {
